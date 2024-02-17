@@ -9,6 +9,7 @@ html {
 }
 
 .page {
+  position: relative;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -50,9 +51,11 @@ ol {
 }
 
 .content {
+  position: absolute;
+  top: 133px;
+  left: 30px;
   display: flex;
   align-items: end;
-  margin: 133px 30px;
   gap: 30px;
 }
 
@@ -80,7 +83,7 @@ ol {
   justify-content: space-between;
   align-items: end;
   gap: 35px;
-  font-family: 'Fira Sans Condensed';
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -97,7 +100,7 @@ ol {
 
 .search-form__fieldset-title {
   line-height: 21.6px;
-  font-family: Fira Sans Condensed;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 22px;
@@ -189,7 +192,7 @@ ol {
 .button {
   box-sizing: border-box;
   background: transparent;
-  font-family: Fira Sans Condensed;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 22px;
@@ -227,7 +230,7 @@ ol {
 }
 
 .title {
-  font-family: 'Oswald';
+  font-family: 'Oswald', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 75px;
@@ -297,7 +300,7 @@ background-color: #545050;
 }
 
 .content__video-card-title {
-  font-family: Oswald;
+  font-family: 'Oswald', sans-serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 30px;
