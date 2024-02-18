@@ -16,6 +16,9 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1,
@@ -49,22 +52,23 @@ ol {
 
 .content {
   display: flex;
-  align-items: end;
-  margin: 133px 30px;
+  align-items: start;
   gap: 30px;
 }
 
 .result {
   display: flex;
   flex-direction: column;
+  justify-content: end;
   width: 711px;
-  gap: 14px;  
+  gap: 15px;  
+  padding-top: 75px;
 }
 
 .result__video-container {
   position: relative;
   width: 711px;
-  height: 386px;
+  height: 385px;
 }
 
 .result__video {
@@ -88,7 +92,7 @@ ol {
 .search-form__fieldset {
   display: flex;
   flex-direction: column;
-  row-gap: 5px;
+  row-gap: 4px;
   border: none;
   flex-wrap: nowrap;
 }
@@ -147,7 +151,7 @@ ol {
 .search-form__checkbox-list {
   display: flex;
   gap: 15px;
-  padding-bottom: 3px;
+  padding-bottom: 4px;
   padding-left: 1px;
 }
 
@@ -217,15 +221,21 @@ ol {
   margin-left: 1px;
 }
 
+.content__details {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 23px;
+  width: 399px;
+}
+
 .title {
   font-family: 'Oswald', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 75px;
-  line-height: 96%;
+  line-height: 93%;
   text-transform: uppercase;
-  padding-top: 3px;
-  padding-bottom: 20px;
 }
 
 .content__accent {
@@ -234,7 +244,7 @@ ol {
 
 .content__list {
   position: relative;
-  max-height: 298px;
+  max-height: 297px;
   overflow: auto;
 }
 
@@ -284,7 +294,7 @@ ol {
 }
 
 .content__video-card-description-container {
-  padding-left: 2px;
+  padding-left: 1px;
 }
 
 .content__video-card-title {
@@ -294,7 +304,7 @@ ol {
   line-height: 110%;
   text-align: left;
   text-transform: uppercase;
-  padding-top: 2px;
+  padding-top: 1px;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -304,9 +314,12 @@ ol {
 .content__video-card-thumbnail {
   width: 194px;
   height: 103px;
+  object-fit: cover;
+  object-position: 50% 50%;
 }
 
 .more-button {
   width: 99%;
-  margin: 1px;
+  height: 99%;
+  margin: 1.3px;
 }
