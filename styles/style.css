@@ -296,8 +296,13 @@ ol {
 
 .content__video-card-description-container {
   padding-left: 1px;
-  max-width: 185px;
+  max-width: 185px; 
 }
+
+/*Добрый вечер! По пикселям расчитала доступную ширину
+без скролла. На MAC скролла не видно, поэтому пришлось 
+поверить расчетам. Надеюсь, что контент полный 
+и без каких-либо искажений. Спасибо!*/
 
 .content__video-card-title {
   font-family: 'Oswald', sans-serif;
